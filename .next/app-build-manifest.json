@@ -15,11 +15,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/api/incidents/route.js"
-    ],
-    "/api/incidents/[id]/resolve/route": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/api/incidents/[id]/resolve/route.js"
     ]
   }
 }

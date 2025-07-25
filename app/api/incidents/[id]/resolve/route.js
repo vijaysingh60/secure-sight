@@ -2,10 +2,10 @@ import pool from '../../../../../lib/db'
 
 export async function PATCH(request, context) {
   const { id } = await context.params
-  if (!id) {
+    if (!id) {
     return Response.json({ error: 'Incident ID is required' }, { status: 400 })
-  }
-
+    }
+    
   // Get current resolved state
   const { rows: currentRows } = await pool.query(
     'SELECT resolved FROM incidents WHERE id = $1',
@@ -13,9 +13,9 @@ export async function PATCH(request, context) {
   )
   if (currentRows.length === 0) {
     return Response.json({ error: 'Incident not found' }, { status: 404 })
-  }
+    }
   const newResolved = !currentRows[0].resolved
-
+    
   // Update and return the updated row with camera details
   const { rows } = await pool.query(`
     UPDATE incidents
