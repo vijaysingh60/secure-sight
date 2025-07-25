@@ -1,0 +1,20 @@
+# Placeholder for thumbnail images
+# In a real application, these would be actual screenshot thumbnails from the CCTV feeds
+
+The following thumbnail files are referenced in the mock data:
+- entrance-1.jpg
+- vault-1.jpg
+- shopfloor-1.jpg
+- parking-1.jpg
+- entrance-2.jpg
+- shopfloor-2.jpg
+- vault-2.jpg
+- parking-2.jpg
+- entrance-3.jpg
+- shopfloor-3.jpg
+- vault-3.jpg
+- parking-3.jpg
+- entrance-4.jpg
+- shopfloor-4.jpg
+
+For demo purposes, these are simulated with placeholder images from Pexels in the components.
